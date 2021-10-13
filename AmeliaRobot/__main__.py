@@ -386,7 +386,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" ʜɪɪ ɪ ᴀᴍ  *ᴇʟᴢᴀ*
-                 \nHere is the [Source Code](https://github.com) .""",
+                 \nHere is the [Source Code](https://github.com/cat-of-tg) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
