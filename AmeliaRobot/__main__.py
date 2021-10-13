@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ[.](https://telegra.ph/file/a81face9578539c9affb4.jpg), ɪᴍ ᴇʟᴢᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ[.](https://telegra.ph/file/a81face9578539c9affb4.jpg), ɪᴍ ᴍɪᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴇʟᴢᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="t.me/elza_robot?startgroup=true"),
+            text="ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="t.me/mia_ladbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/Team_LAd"),
@@ -97,7 +97,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` ᴇʟᴢᴀ [🙋‍♀️](https://telegra.ph/file/a81face9578539c9affb4.jpg)
+`ʜɪ.. ɪ'ᴍ` ᴍɪᴀ [🙋‍♀️](https://telegra.ph/file/a81face9578539c9affb4.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 amelia_IMG = "https://telegra.ph/file/a81face9578539c9affb4.jpg"
@@ -350,7 +350,7 @@ def amelia_about_callback(update, context):
     query = update.callback_query
     if query.data == "amelia_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *amelia*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *mia*, a powerful group management bot built to help you manage your group easily.
                  \n❍  ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs
                  \n❍  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ɢʀᴏᴜᴘ ʀᴜʟᴇs
                  \n❍  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ 
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" ʜɪɪ ɪ ᴀᴍ  *ᴇʟᴢᴀ*
+            text=""" ʜɪɪ ɪ ᴀᴍ  *ᴍɪᴀ*
                  \nHere is the [Source Code](https://github.com/cat-of-tg) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
